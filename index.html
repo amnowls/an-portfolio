@@ -50,6 +50,12 @@ h1, h2 {
         height: auto;
         border-radius: 8px;
     }
+
+    .video-grid iframe {
+        width: 100%;
+        height: 400px;  /* Or whatever height you want */
+        border-radius: 8px;
+    }
     
     @media (max-width: 768px) {
         .video-grid {
@@ -61,34 +67,23 @@ h1, h2 {
 <body>
 <h1>anna nolden's portfolio</h1>
 <h2>undergoing renovations....</h2>
-<!-- <div id="cat-container">
- <img src="/images/IMG_0652.jpeg" />
- <img src="/images/IMG_7066.jpeg" />
- </div>
- <div id="wide-cat">
- <img src="/images/IMG_0502.jpeg" />
- </div> -->
 
-    <div class="video-grid">
-    <iframe src="https://www.youtube.com/embed/gDYSBGbIhxI" frameborder="0" allowfullscreen></iframe>
-</div>
+
+<div class="video-grid">
+    <!-- lights/darks -->
+    <iframe src="https://player.vimeo.com/video/1128228626" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
     
-    <video controls>
-        <source src="https://drive.google.com/file/d/1UVVdxQU4V6dTXQrQWelF1xGLuTrKXf4E/view?usp=sharing" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    
-    <video controls>
-        <source src="https://youtu.be/krzoJqXWc_w" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    
-    <video controls>
-        <source src="https://youtu.be/vLWiGMLLCDg" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+    <!-- transmission pending -->
+    <iframe src="https://player.vimeo.com/video/1128228378" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+   
+    <!-- mycomorphosis -->
+    <iframe src="https://player.vimeo.com/video/1128228522" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+    <!-- chaoscillator -->
+    <iframe src="https://player.vimeo.com/video/1128228465" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
+
